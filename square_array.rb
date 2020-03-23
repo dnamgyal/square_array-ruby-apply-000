@@ -1,6 +1,7 @@
 def square_array(array)
   # your code here
+  new_array = []
   for x in array
-    x = x ** x
+    new_array.push(x**x)
   end
 end
